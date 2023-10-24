@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  list-style: none;
+}
+
+/* a:hover{
+    color: white;
+} */
+
+img {
+  border: 0px;
+}
+
+header,
+nav,
+section,
+aside,
+article,
+footer,
+figure {
+  display: block;
+}
+
+/* code page */
+
+#wapper {
+  width: 1500px;
+  margin: auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+#topbar {
+  width: 1500px;
+  height: 45px;
+  background-color: #f1f2f4;
+  float: left;
+}
+
+#topbar h2 {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 45px;
+  margin-left: 40px;
+  color: #000;
+  float: left;
+}
+
+#topbar ul {
+  float: right;
+}
+
+#topbar ul li {
+  display: inline-block;
+  line-height: 45px;
+  margin-right: 35px;
+}
+
+#topbar ul li a {
+  color: #000;
+  font-weight: bolder;
+}
+
+#topbar ul li a:hover {
+  color: #775454;
+}
+
+#header {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  padding: 10px 0 70px 0;
+}
+
+#header #logo img {
+  float: left;
+  width: 165px;
+  height: 50px;
+  color: #000;
+  margin: 10px 0 0 40px;
+}
+
+#header .menu ul {
+  text-align: center;
+  margin-right: 50px;
+  line-height: 66px;
+}
+
+#header .menu ul li {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+#header .menu ul li a {
+  font-size: 17px;
+  font-weight: bold;
+  color: #23232c;
+}
+
+#header .menu ul li a:hover {
+  color: red;
+}
+
+#nav {
+  float: right;
+  line-height: 80px;
+}
+
+#nav img {
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main #right {
+  margin-top: 60px;
+}
+
+main img {
+  width: 500px;
+  height: 500px;
+  margin-left: 50px;
+}
+
+main h1 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  color: #1e1e23;
+}
+
+main p {
+  color: #7c7c80;
+}
+
+main .price {
+  margin: 20px 0 35px 0;
+}
+
+main .price-old {
+  font-size: 25px;
+  color: #7c7c80;
+  text-decoration-line: line-through;
+  margin-right: 10px;
+}
+
+main .price-new {
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+}
+
+main #right .buy input {
+  width: 270px;
+  height: 50px;
+  background-color: antiquewhite;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0 40px 0;
+  cursor: pointer;
+}
+
+main #right .buy input:hover {
+  color: red;
+}
+
+main #right .chitiet h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+main #right .chitiet p {
+  font-size: 15px;
+  color: #7c7c80;
+  width: 400px;
+}
+
+#text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 250px;
+  margin-bottom: 150px;
+}
+
+#text .text-left {
+  margin-left: 100px;
+}
+
+#text .text-left .to {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#text .text-left .nho {
+  margin-bottom: 20px;
+}
+
+#text .text-right {
+  margin-left: 100px;
+}
+
+#text .text-right .to {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#text .text-right .nho {
+  margin-bottom: 20px;
+}
+/* Recomentd */
+
+#recommend {
+  display: flex;
+  flex-wrap: wrap;
+}
+#recommend #item_content {
+  margin: 10px;
+}
+
+#recommend #item_content a h5:hover {
+  color: violet;
+}
+
+#recommend #item_content img {
+  width: 266px;
+  height: 266px;
+  border-radius: 3px;
+}
+
+#recommend #item_content h5 {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  color: #23232c;
+  margin: 10px;
+  text-align: center;
+}
+
+#recommend #item_content .price {
+  text-align: center;
+  display: inline-flex;
+  margin-left: 70px;
+}
+
+#recommend #item_content .old-price {
+  font-size: 13px;
+  font-weight: 750;
+  color: #7a7a7a;
+  text-decoration-line: line-through;
+  margin-top: 2px;
+}
+
+#recommend #item_content .new-price {
+  font-size: 16px;
+  font-weight: 750;
+  color: #ff0000;
+  margin-left: 7px;
+}
+
+/* Comment */
+.comment {
+  max-width: 700px;
+  margin-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.1),
+    0 2px 6px 2px rgba(60, 64, 67, 0.15);
+  padding: 1rem;
+}
+
+.comment .user-comment .user {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(145, 158, 171, 0.239);
+}
+
+.comment .add-comment textarea {
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(60, 64, 67, 0.1),
+    0 2px 6px 2px rgba(60, 64, 67, 0.15);
+  min-width: 0 !important;
+  padding-left: 7px;
+  padding-top: 7px;
+  width: calc(100% - 80px);
+  height: 100px;
+  max-width: 600px;
+  max-height: 200px;
+}
+
+.button {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+  line-height: 1;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  color: #121212;
+  border: none;
+  cursor: pointer;
+}
+
+.button-decor {
+  position: absolute;
+  inset: 0;
+  background-color: var(--clr);
+  transform: translateX(-100%);
+  transition: transform 0.3s;
+  z-index: 0;
+}
+
+.button-content {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+}
+
+.button__icon {
+  width: 48px;
+  height: 40px;
+  background-color: var(--clr);
+  display: grid;
+  place-items: center;
+}
+
+.button__text {
+  display: inline-block;
+  transition: color 0.2s;
+  padding: 2px 1.5rem 2px;
+  padding-left: 0.75rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+
+.button:hover .button__text {
+  color: #fff;
+}
+
+.button:hover .button-decor {
+  transform: translate(0);
+}
+
+/* Footer */
+#footer {
+  width: 1500px;
+  border-top: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#footer #logo_footer {
+  float: left;
+}
+
+#footer #logo_footer img {
+  width: 240px;
+  height: 80px;
+  margin: 30px 0 30px 240px;
+}
+
+#footer #logo_footer a {
+  color: #909097;
+}
+
+#footer #logo_footer span {
+  color: #999999;
+  margin-right: 15px;
+}
+
+#footer #logo_footer p {
+  font-size: 14px;
+  margin: 20px 0 20px 240px;
+}
+
+#footer #dichvu {
+  text-align: center;
+  margin: 60px 30px 40px 0;
+}
+
+#footer #dichvu h2 {
+  margin-bottom: 75px;
+}
+
+#footer #dichvu p {
+  margin-bottom: 20px;
+}
+
+#footer #dichvu p a {
+  font-size: 14px;
+  color: #999999;
+}
+
+#footer #facebook {
+  margin: 30px 0 0 50px;
+}
